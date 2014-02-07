@@ -231,6 +231,10 @@ class Sermepa{
         }
     }#-#firma()
     
+    public function getFirma()
+    {
+        return $this->_setFirma;
+    }
     /**
      * Asignar el nombre del formulario
      * @param string nombre Nombre y ID del formulario
